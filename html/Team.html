@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/global.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Team</title>
+    <style>
+        /* Blue Background for the Team Section */
+        .section-blue {
+            background-color: #0071c5;
+            color: white;
+            padding: 50px 0;
+            margin-bottom: 3rem; /* Adds a gap below the section */
+        }
+
+        /* Card Styling */
+        .card {
+            width: 18rem;
+            height: 350px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        /* Adjust card image size and layout */
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 100%;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        /* Adjust space between cards */
+        .card-deck .card {
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg border-bottom border-body">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/header-logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        <a class="nav-link active" aria-current="page" href="../Home.html">HOME</a>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href=""></a>
+                            </li>
+                          -->
+                            <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href="Team.html">TEAM</a>
+                            </li>
+                            -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="News.html">NEWS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="NewHire.html">NEW HIRE</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center mb-4">Meet Our Team!</h1>
+
+            <!-- Intro Section -->
+            <section class="section-blue">
+                <p class="section-content text-center">Our team is made up of skilled professionals who are dedicated to delivering the best outputs.</p>
+                <p class="section-content text-center">Learn more about our talented team members who make our company successful.</p>
+            </section>
+
+            <!-- Team Members Section -->
+            <div class="card-deck d-flex justify-content-center">
+                <!-- First Row: One Card -->
+                <div class="col-12">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="A">
+                        <div class="card-body">
+                            <h5 class="card-title">A</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Row: One Card -->
+                <div class="col-12">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="B">
+                        <div class="card-body">
+                            <h5 class="card-title">B</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Following Rows: Five Cards per Row -->
+            <div class="card-deck justify-content-center">
+                <!-- Third Row: Five Team Members -->
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="C">
+                        <div class="card-body">
+                            <h5 class="card-title">C</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="D">
+                        <div class="card-body">
+                            <h5 class="card-title">D</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="E">
+                        <div class="card-body">
+                            <h5 class="card-title">E</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="F">
+                        <div class="card-body">
+                            <h5 class="card-title">F</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="G">
+                        <div class="card-body">
+                            <h5 class="card-title">G</h5>
+                            <p class="card-text">Role</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add similar card-deck structures for the fourth, fifth, and sixth rows -->
+<!-- Rows of <= 5 cards as team exapnds -->
+            <!-- Following Rows: Five Cards per Row -->
+            <div class="card-deck justify-content-center">
+                <!-- Nth Row: Three Team Members - Interns -->
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="I1">
+                        <div class="card-body">
+                            <h5 class="card-title">I1</h5>
+                            <p class="card-text">Intern</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="I2">
+                        <div class="card-body">
+                            <h5 class="card-title">I2</h5>
+                            <p class="card-text">Intern</p>
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col-md-2 mb-4">
+                    <div class="card mx-auto">
+                        <img src="../img/header-logo.png" class="card-img-top" alt="I3">
+                        <div class="card-body">
+                            <h5 class="card-title">I3</h5>
+                            <p class="card-text">Intern</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid ">
+            <div class="row align-items-end">
+                <div class="col text-right">
+                    <a class="" href="../html/Address.html">
+                        Reach Us
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a class="" href="../html/ContactUs.html">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="col text-left">
+                    <a class="" href="../html/FAQ.html">
+                        FAQ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/Home.js"></script>
+
+</body>
+</html>
