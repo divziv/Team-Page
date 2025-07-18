@@ -1,0 +1,93 @@
+/* Custom styling for the FAQ page */
+.faq-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.faq-header:hover {
+    color: #0056b3;
+    cursor: pointer;
+    background-color: #e2e6ea;
+}
+
+.faq-card {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+/* Accordion button icon */
+.accordion-button::after {
+    content: "▼";
+    font-size: 1.2rem;
+    color: #007bff;
+    transition: transform 0.3s ease;
+}
+
+.accordion-button.collapsed::after {
+    transform: rotate(-180deg);
+}
+
+/* Card header style */
+.faq-card .card-header {
+    background-color: #f8f9fa;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5rem;
+}
+
+/* Hover effects on header */
+.faq-card .card-header:hover {
+    background-color: #e2e6ea;
+}
+
+/* Borders for first, center, and last items */
+.faq-first .card {
+    border-top: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+    border-right: 2px solid #007bff;
+}
+
+.faq-last .card {
+    border-bottom: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+    border-right: 2px solid #007bff;
+}
+
+.faq-center .card {
+    border-left: 2px solid #007bff;
+    border-right: 2px solid #007bff;
+}
+
+/* Hover effect for the entire card */
+.faq-card:hover {
+    background-color: #f1f3f5;
+}
+
+/* Styling for the collapsed state of accordion */
+.collapse {
+    background-color: white;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+/* Hover effect for question button (smooth background color change) */
+.faq-header:hover {
+    background-color: #f1f3f5;
+}
+
+/* Customize the expanded FAQ item */
+.faq-header:focus {
+    outline: none;
+}
