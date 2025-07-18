@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/global.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* Custom Background Colors for Sections */
+        .section-white {
+            background-color: white;
+        }
+
+        .section-blue {
+            background-color: #0071c5;
+            color: white;
+        }
+
+        .section-dark {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Center the buttons in the section */
+        .section-blue .btn,
+        .section-white .btn,
+        .section-dark .btn {
+            display: block;
+            width: 100%; /* Make buttons span the full width on small screens */
+            max-width: 300px; /* Add a maximum width for larger screens */
+            margin: 20px auto; /* Centers the button */
+            padding: 15px; /* Adds padding for a larger button */
+        }
+
+        /* Button hover effect with shadow */
+        .section-blue .btn:hover,
+        .section-white .btn:hover,
+        .section-dark .btn:hover {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* Additional Styling for Sections */
+        .section-heading {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .section-content {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/header-logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href=""></a>
+                            </li>
+                          -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="html/Team.html">TEAM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="html/News.html">NEWS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="html/NewHire.html">NEW HIRE</a>
+                            </li>
+                            
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center mb-4">Welcome to Our Page!</h1>
+            
+            <!-- ABC Section (Blue Background) -->
+            <section class="section-blue mb-5 py-5">
+                <h2 class="section-heading text-center">ABC</h2>
+                <p class="section-content text-center">Learn more about ABC</p>
+                <a href="https://intel.sharepoint.com/sites/PESG/" class="btn btn-light">Link Button</a>
+            </section>
+
+            <!-- DEF Section (White Background) -->
+            <section class="section-white mb-5 py-5">
+                <h2 class="section-heading text-center">DEF</h2>
+                <p class="section-content text-center">Learn more about DEF</p>
+                <a href="https://intel.sharepoint.com/sites/S3E/" class="btn btn-primary">Link Button</a>
+            </section>
+
+            <!-- GHI Section (Dark Background) -->
+            <section class="section-dark mb-5 py-5">
+                <h2 class="section-heading text-center">GHI</h2>
+                <p class="section-content text-center">Learn more about GHI</p>
+                <a href="" class="btn btn-light">Link Button</a>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col text-right">
+                    <a href="html/Address.html">Reach Us</a>
+                </div>
+                <div class="col text-center">
+                    <a href="html/ContactUs.html">Contact Us</a>
+                </div>
+                <div class="col text-left">
+                    <a href="html/FAQ.html">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/Home.js"></script>
+
+</body>
+
+</html>
