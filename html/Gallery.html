@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+
+    <style>
+        .gallery-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg border-bottom border-body">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="../Home.html">
+                    <img src="../img/header-logo.png" alt="Logo" width="30" height="30" class="mr-2">
+                    HOME
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="Team.html">TEAM</a></li>
+                        <li class="nav-item"><a class="nav-link" href="News.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="NewHire.html">NEW HIRE</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="Gallery.html">GALLERY</a></li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center mb-4">Gallery</h1>
+            <p class="text-center">Here are some of our favorite moments from past events and team activities.</p>
+
+            <div class="row mt-4">
+                <!-- Repeat this block for more images -->
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery1.jpg" alt="Event 1" class="gallery-img">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery2.jpg" alt="Event 2" class="gallery-img">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery3.jpg" alt="Event 3" class="gallery-img">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery4.jpg" alt="Team Outing" class="gallery-img">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery5.jpg" alt="Conference" class="gallery-img">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="../img/gallery6.jpg" alt="Hackathon" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row align-items-end">
+                <div class="col text-right"><a href="../html/Address.html">Reach Us</a></div>
+                <div class="col text-center"><a href="../html/ContactUs.html">Contact Us</a></div>
+                <div class="col text-left"><a href="../html/FAQ.html">FAQ</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
